@@ -11,7 +11,7 @@ html, body{
 }
 
 #page1{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background: #EFEAE3;
     position: relative;
@@ -93,4 +93,21 @@ nav{
     font-size: 10vw;
     line-height: 8vw;
     text-align: right;
+}
+
+#page1 video{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 4vw;
+}
+
+#hero-shape{
+    position: absolute;
+    width: 46vw;
+    height: 36vw;
+    background-color: #FE320A;
+    border-radius: 50%;
+    right: 0;
+    top: 65vh;
+    filter: blur(20px);
 }
