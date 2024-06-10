@@ -164,3 +164,31 @@ nav{
         transform: translate(-20%, 20%);
     }
 }
+
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #EFEAE3;
+}
+
+#moving-text{
+    white-space: nowrap;
+}
+
+.con{
+    white-space: nowrap;
+    display: inline-block;
+}
+
+#moving-text h1{
+    font-size: 9vw;
+    display: inline-block;
+}
+
+#circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #FE320A;
+}
