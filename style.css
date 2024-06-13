@@ -212,3 +212,37 @@ nav{
         transform: translateX(-100%);
     }
 }
+
+#page2-bottom{
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw;
+}
+
+#page2-bottom h1{
+    font-size: 4.25em;
+    width: 70%;
+    line-height: 1;
+    letter-spacing: -.03em;
+    margin: .67em 0;
+}
+
+#bottom-part2{
+    width: 20%;
+    vertical-align: middle;
+}
+
+#bottom-part2 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#bottom-part2 p{
+    font-weight: 400;
+    margin-top: 3vw;
+    font-size: 1em;
+    line-height: 1.4;
+}
