@@ -251,19 +251,28 @@ nav{
 }
 
 #page2 #goey{
-    height: 30vw;
-    width: 30vw;
+    height: 40vw;
+    width: 40vw;
     position: absolute;
-    border-radius: 50%;
+    border-radius: 53%;
     background: linear-gradient(to top,#FE320A, #fe5b0a);
-    top: 58%;
+    top: 50%;
     left: 25%;
     filter: blur(20px);
+    animation-name: goey;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
 }
 
-#goey1{
-    height: 100%;
-    width: 100%;
+
+@keyframes goey {
+    from{
+        transform: translate(10%,-10%) skew(0);
+    }to{
+        transform: translate(-10%, 10%) skew(-12deg);
+    }
 }
 
 
