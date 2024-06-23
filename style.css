@@ -325,4 +325,6 @@ nav{
     left: 50%;
     top: 25%;
     display: none;
+    background-size: cover;
+    background-position: center;
 }
