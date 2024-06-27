@@ -19,3 +19,16 @@ elems.forEach(function(e){
         fixed.style.backgroundImage = `url(${image})`
     })
 })
+
+
+document.addEventListener(`DOMContentLoaded`, function() {
+    const videoDiv = document.querySelector(`.elem1`);
+    const videoSrc = videoDiv.getAttribute(`data-video-src`);
+
+    if (videoSrc) {
+        const videoElement = document.createElement(`video`);
+        videoElement.src = videoSrc;
+        videoElement.controls = true;
+        videoDiv.appendChild(videoElement);
+    }
+});
