@@ -318,7 +318,7 @@ nav{
 #fixed-image{
     height: 30vw;
     width: 24vw;
-    background-color: red;
+    background-color: none;
     position: fixed;
     border-radius: 10px;
     z-index: 99;
@@ -340,4 +340,16 @@ nav{
     background-size: cover;
     background-position: center;
     object-fit: cover;
+}
+
+#backgroundVideo{
+    height: 30vw;
+    width: 24vw;
+    position: fixed;
+    border-radius: 10px;
+    left: 50%;
+    top: 25%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover; 
 }
