@@ -12,12 +12,13 @@ elemC.addEventListener("mouseleave", function(){
     fixed.style.display = "none";
 })
 
+// The code listens for mouse entry events on elements with the class "elem" to change the background image and play a video. It retrieves the image and video URLs from the elements' data attributes, updates the background image of a fixed element, and sets the video source to play it.
+
 var elems = document.querySelectorAll(".elem");
 var backgroundVideo = document.getElementById("backgroundVideo")
 elems.forEach(function(e){
     e.addEventListener("mouseenter", function(){
         var image = e.getAttribute("data-image");
-
         var videoSrc = e.getAttribute("data-video-src");
         fixed.style.backgroundImage = `url(${image})`;
         backgroundVideo.src = videoSrc;
